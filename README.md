@@ -48,6 +48,8 @@ http://localhost:3001/api/categories,
 http://localhost:3001/api/products,
 http://localhost:3001/api/tags
 
+Video Tutorial: https://drive.google.com/file/d/1X4Xgp8LHSeSbETNix0Bk2SchHNNE6b_o/view
+
 ## License
 
 MIT License
