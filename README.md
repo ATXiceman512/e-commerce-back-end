@@ -26,12 +26,12 @@ run: "npm install" to install required dependecies
 create: '.env' *IF NOT CREATED* in the root directory and set the following:
 
 DB_NAME='ecommerce_db'  
-DB_USER= <your MySQL username>  
-DB_PW= <your MySQL password> 
+DB_USER= "your MySQL username"  
+DB_PW= "your MySQL password" 
 
 To create the database , you must run the following command in the integrated terminal or CMD(from the root directory)
-mysql -u <your MySQL username> - p
-when prompted for your password, use the one indicated in the .env file (i.e.- <your MySQL password>)
+mysql -u "your MySQL username" - p
+when prompted for your password, use the one indicated in the .env file (i.e.- "your MySQL password")
 
 Once the database has been created and you are connected, you should see 'mysql>', then run: source ./db/schema.sql
 
@@ -47,10 +47,6 @@ here are the basic GET endpoints:
 http://localhost:3001/api/categories,
 http://localhost:3001/api/products,
 http://localhost:3001/api/tags
-
-## Credits
-
-ATXiceman512 - Github profile: https://github.com/ATXiceman512
 
 ## License
 
@@ -90,5 +86,9 @@ SOFTWARE.
 ### sequelize
 [Link to site](https://www.npmjs.com/package/sequelize)
 
+  ## Questions
+  For more information, contact  
+  * [ATXiceman512 on GitHub](https://github.com/ATXiceman512)  
+  * [jbeard1989.jb@gmail.com](mailto:jbeard1989.jb@gmail.com)
 
 
